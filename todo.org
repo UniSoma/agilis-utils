@@ -1,0 +1,16 @@
+#+STARTUP: overview
+
+* General [0/2]
+
+- [ ] Create "real backlog"
+- [ ] Package and publish in [[https://pypi.org/][PyPI]]
+
+* Command Line Interface [0/2]
+
+- [ ] [[https://typer.tiangolo.com/][Typer]] hello world
+- [ ] Build standalone executable ([[https://pyinstaller.org/en/stable/][PyInstaller]]?)
+
+* Documentation [0/2]
+
+- [ ] Choose tool
+- [ ] Publish to Github Page (README already cites it)

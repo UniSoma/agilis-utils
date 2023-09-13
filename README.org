@@ -30,4 +30,5 @@ with agilis_utils.SQLiteStore("scenario.db"):
     store.import("other_data.xlsx")
 #+end_src
 
-Check out the [full library documentation](https://unisoma.github.io/agilis-utils/) for everything else you can do with the Python library.
+Check out the [[https://unisoma.github.io/agilis-utils/][full library documentation]] for everything else you can do with the
+Python library.
