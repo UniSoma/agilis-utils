@@ -1,0 +1,33 @@
+* agilis-utils
+
+Python CLI utility and library for working with the Agilis Platform.
+
+** Installation
+
+#+begin_src sh
+pip install agilis-utils
+#+end_src
+
+** Using as a CLI tool
+
+Now you can do things with the CLI utility like this:
+
+#+begin_src sh
+agilis-utils migrate data.sqlite --template empty.db
+
+agilis-utils import data.sqlite some_data.csv other_data.xlsx
+#+end_src
+
+** Using as a library
+
+You can also `import agilis_utils` and use it as a Python library like this:
+
+#+begin_src python
+import agilis_utils
+with agilis_utils.SQLiteStore("scenario.db"):
+    store.migrate(template="empty.db")
+    store.import("some_data.csv")
+    store.import("other_data.xlsx")
+#+end_src
+
+Check out the [full library documentation](https://unisoma.github.io/agilis-utils/) for everything else you can do with the Python library.
