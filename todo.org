@@ -1,9 +1,9 @@
 #+STARTUP: overview
 
-* General [0/2]
+* General [1/2]
 
 - [ ] Create "real backlog"
-- [ ] Package and publish in [[https://pypi.org/][PyPI]]
+- [X] Package and publish in [[https://pypi.org/][PyPI]]
 
 * Command Line Interface [0/2]
 
